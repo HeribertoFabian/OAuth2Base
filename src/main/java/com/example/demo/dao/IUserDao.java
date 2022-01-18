@@ -6,6 +6,6 @@ import com.example.demo.entity.User;
 
 public interface IUserDao extends CrudRepository<User, Long>{
 	
-	public User findByUsername(String username);
+	public User findByUserName(String username);
 
 }
